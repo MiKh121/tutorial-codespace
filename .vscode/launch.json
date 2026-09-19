@@ -2,14 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Launch (tutorials)",
+            "name": "Run Active C# Script",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/tutorials/bin/Debug/net8.0/tutorials.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/tutorials",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen"
+            "preLaunchTask": "Run Active File",
+            "program": "", 
+            "cwd": "${fileDirname}"
         }
     ]
 }
